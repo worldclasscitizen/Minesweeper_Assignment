@@ -23,7 +23,7 @@ _display_ - the display command will display the current view of the board.  Any
 For display, use the following symbols
 . - a . indicates a spaces has not been touched.
 (hash sign) - the number will indicate how many bombs this square is touching.  Put the actual number not the # symbol.
-* - this is an exploded bomb.  So in the final board display, if the player touched a bomb, this will be shown.
+(Asterisk symbol) - this is an exploded bomb.  So in the final board display, if the player touched a bomb, this will be shown.
 @ - this is an unexploded bomb.  So in the final board display, if the player didn't touch a bomb, use this symbol.
 Each command will be echoed into the output along with any arguments it may have.
 
