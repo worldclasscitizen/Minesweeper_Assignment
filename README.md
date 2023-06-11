@@ -21,10 +21,10 @@ _touch_ - the touch command will be followed by two integers.  The integers repr
 
 _display_ - the display command will display the current view of the board.  Any touched spaces will show how many bombs they are next to.  We will use 0 for blanks that don't touch any spaces.  
 For display, use the following symbols
-.  a . indicates a spaces has not been touched.
-#  the number will indicate how many bombs this square is touching.  Put the actual number not the # symbol.
-*  this is an exploded bomb.  So in the final board display, if the player touched a bomb, this will be shown.
-@  this is an unexploded bomb.  So in the final board display, if the player didn't touch a bomb, use this symbol.
+. - a . indicates a spaces has not been touched.
+(hash sign) - the number will indicate how many bombs this square is touching.  Put the actual number not the # symbol.
+* - this is an exploded bomb.  So in the final board display, if the player touched a bomb, this will be shown.
+@ - this is an unexploded bomb.  So in the final board display, if the player didn't touch a bomb, use this symbol.
 Each command will be echoed into the output along with any arguments it may have.
 
 [Game Over]
