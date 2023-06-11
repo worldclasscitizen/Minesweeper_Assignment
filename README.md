@@ -39,25 +39,25 @@ The game is over when 1 of 3 things has occurred:
 [Input]
 Below is a sample for what a board might look like
 
-*.......
-.......*
-.*.*..*.
-...*....
-...*....
-***.....
-........
+*.......\n
+.......*\n
+.*.*..*.\n
+...*....\n
+...*....\n
+***.....\n
+........\n
 ........
 
 [Output]
 Below is a sample of what a command file might look like
 
-load test2board.txt
-touch 1 7
-touch 7 7
-touch 6 5
-touch 1 5
-touch 2 7
-.
-.
+load test2board.txt\n
+touch 1 7\n
+touch 7 7\n
+touch 6 5\n
+touch 1 5\n
+touch 2 7\n
+.\n
+.\n
 .
 
