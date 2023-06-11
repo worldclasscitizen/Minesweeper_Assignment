@@ -33,31 +33,3 @@ The game is over when 1 of 3 things has occurred:
    When the user has touched all 54 spaces that do not contain a bomb. This is the winning condition.
    When the user touches a bomb. This is the losing condition.
    When the game is over the game will display
-
- 
-
-[Input]
-Below is a sample for what a board might look like
-
-*.......\n
-.......*\n
-.*.*..*.\n
-...*....\n
-...*....\n
-***.....\n
-........\n
-........
-
-[Output]
-Below is a sample of what a command file might look like
-
-load test2board.txt\n
-touch 1 7\n
-touch 7 7\n
-touch 6 5\n
-touch 1 5\n
-touch 2 7\n
-.\n
-.\n
-.
-
